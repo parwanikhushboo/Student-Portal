@@ -15,18 +15,14 @@ public class Register_page {
 			//check if name == string
 		if(username instanceof String){
 			if(username instanceof String)
-				if(conatctnumber.matches("-?\\d+(\\.\\d+)?"))
+				if(conatctnumber.matches("[0-9]+"))
 				{
-					if(email.matches("^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")) {
+					//if(email.matches("^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")) {
 					Home ob=new Home();
 					return true;}
 				}
-		//check if user name == string
-		//check if contact number == number
-		//check if email is in email format
-		//only then open Home and return true
-		//else return false
-		 //write code to open Home window(object)
+		
+		 
 		return false;
 	}
 	public JFrame f;
