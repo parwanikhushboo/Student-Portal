@@ -68,7 +68,8 @@ public class Login_page {
     	//compare if user is equal to "user" and password is equal to "pass"
     	//only the return true and allow them to enter.
     	//TODO Finish data validation
-    	
+    	if(username.equals("user")&&password.equals("pass"))
+    		return true;
     	return false;
     }
 }

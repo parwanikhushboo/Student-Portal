@@ -64,7 +64,7 @@ public class Home {
         f.add(jl5);
         f.setSize(600,500);
         f.setLayout(null);
-        
+        f.setVisible(true);
         //write your code here to make the window visible
         f.setBackground(Color.GRAY);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -13,6 +13,14 @@ import javax.swing.JTextField;
 public class Register_page {
 	public boolean calltoOpenHome(String name,String username,String conatctnumber, String password,String email) {
 			//check if name == string
+		if(username instanceof String){
+			if(username instanceof String)
+				if(conatctnumber.matches("-?\\d+(\\.\\d+)?"))
+				{
+					if(email.matches("^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")) {
+					Home ob=new Home();
+					return true;}
+				}
 		//check if user name == string
 		//check if contact number == number
 		//check if email is in email format
